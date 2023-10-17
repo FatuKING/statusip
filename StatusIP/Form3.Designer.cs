@@ -37,8 +37,10 @@
             // 
             // textBox1
             // 
+            textBox1.AccessibleDescription = "";
             textBox1.Location = new Point(46, 27);
             textBox1.Name = "textBox1";
+            textBox1.PasswordChar = '*';
             textBox1.Size = new Size(138, 23);
             textBox1.TabIndex = 0;
             // 

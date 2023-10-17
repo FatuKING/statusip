@@ -23,14 +23,18 @@ namespace StatusIP
 
             if (VerifyPassword(password))
             {
+                this.Close();
                 Form2 form2 = new Form2();
                 form2.ShowDialog();
+            } else
+            {
+                MessageBox.Show("Contraseña incorrecta.");
             }
         }
 
         private bool VerifyPassword(string password)
         {
-            return password ==  "cmartinez";
+            return password == "hoguera";
         }
 
         private void button2_Click(object sender, EventArgs e)

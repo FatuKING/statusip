@@ -7,8 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-using TextBox = System.Windows.Forms.TextBox;
+using System.IO;
 
 namespace StatusIP
 {
@@ -17,14 +16,11 @@ namespace StatusIP
         public Form2()
         {
             InitializeComponent();
-        }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
             string[] ArchivoDatos = File.ReadAllLines("config.csv");
             ArchivoDatos = ArchivoDatos.Skip(1).ToArray();
 
-            TextBox[] textBoxes = { textBox1, textBox2, textBox3 };
+            TextBox[] textBoxes = { textBox1, textBox2, textBox3, textBox4, textBox5 };
             int textBoxIndex = 0;
 
             foreach (var line in ArchivoDatos)
@@ -38,10 +34,33 @@ namespace StatusIP
                     textBoxIndex++;
                 }
             }
+
         }
         public record Lineas(
         string Nombre,
         string IP
         );
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string[] newValue = { textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text, textBox5.Text };
+
+            string[] lineas = File.ReadAllLines("config.csv");
+
+            // Actualiza los valores en las líneas correspondientes
+            for (int i = 1; i < lineas.Length; i++)
+            {
+                string[] partes = lineas[i].Split(',');
+                if (i - 1 < newValue.Length)
+                {
+                    partes[1] = newValue[i - 1];
+                    lineas[i] = string.Join(",", partes);
+                }
+            }
+
+            File.WriteAllLines("config.csv", lineas);
+
+            this.Close();
+        }
     }
 }
