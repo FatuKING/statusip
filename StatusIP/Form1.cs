@@ -32,15 +32,21 @@ namespace StatusIP
 
                 PingReply PingStatus = PingIP.Send(fila.IP);
                 bool status = PingStatus.Status == IPStatus.Success;
+                string conexion;
 
-                dataGridView1.Rows.Add(fila.Nombre, fila.IP, status);
+                if (status)
+                { conexion = "Con Conexión"; }
+                else
+                { conexion = "Sin Conexión"; }
+
+                dataGridView1.Rows.Add(fila.Nombre, fila.IP, conexion);
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
-        {
-            Form2 form = new Form2();
-            form.ShowDialog();
+        {   
+            Form3 form3 = new Form3();
+            form3.ShowDialog();
         }
     }
     public record Lineas(

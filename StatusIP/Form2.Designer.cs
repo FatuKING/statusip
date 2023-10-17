@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             label1 = new Label();
             label2 = new Label();
             button1 = new Button();
@@ -145,7 +146,7 @@
             // 
             // textBox5
             // 
-            textBox5.Location = new Point(181, 148);
+            textBox5.Location = new Point(180, 151);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(152, 23);
             textBox5.TabIndex = 12;
@@ -168,6 +169,7 @@
             Controls.Add(button1);
             Controls.Add(label2);
             Controls.Add(label1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form2";
             Text = "Cafe Martinez";
             ResumeLayout(false);

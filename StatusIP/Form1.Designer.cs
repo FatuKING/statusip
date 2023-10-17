@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             button1 = new Button();
             dataGridView1 = new DataGridView();
             Nombre = new DataGridViewTextBoxColumn();
@@ -39,7 +40,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(196, 186);
+            button1.Location = new Point(165, 170);
             button1.Name = "button1";
             button1.Size = new Size(150, 35);
             button1.TabIndex = 0;
@@ -50,32 +51,39 @@
             // dataGridView1
             // 
             dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.AllowUserToDeleteRows = false;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Nombre, IP, Conectividad });
-            dataGridView1.Location = new Point(12, 12);
+            dataGridView1.Location = new Point(10, 13);
             dataGridView1.Name = "dataGridView1";
+            dataGridView1.ReadOnly = true;
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(336, 167);
+            dataGridView1.Size = new Size(305, 151);
             dataGridView1.TabIndex = 1;
             // 
             // Nombre
             // 
             Nombre.HeaderText = "Nombre";
             Nombre.Name = "Nombre";
+            Nombre.ReadOnly = true;
+            Nombre.Width = 70;
             // 
             // IP
             // 
-            IP.HeaderText = "IP";
+            IP.HeaderText = "Dirección IP";
             IP.Name = "IP";
+            IP.ReadOnly = true;
             // 
             // Conectividad
             // 
             Conectividad.HeaderText = "Conectividad";
             Conectividad.Name = "Conectividad";
+            Conectividad.ReadOnly = true;
+            Conectividad.Width = 90;
             // 
             // button2
             // 
-            button2.Location = new Point(12, 185);
+            button2.Location = new Point(10, 169);
             button2.Name = "button2";
             button2.Size = new Size(150, 36);
             button2.TabIndex = 2;
@@ -87,10 +95,11 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(358, 233);
+            ClientSize = new Size(325, 213);
             Controls.Add(button2);
             Controls.Add(dataGridView1);
             Controls.Add(button1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Text = "Cafe Martinez";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
@@ -101,9 +110,9 @@
 
         private Button button1;
         private DataGridView dataGridView1;
+        private Button button2;
         private DataGridViewTextBoxColumn Nombre;
         private DataGridViewTextBoxColumn IP;
         private DataGridViewTextBoxColumn Conectividad;
-        private Button button2;
     }
 }

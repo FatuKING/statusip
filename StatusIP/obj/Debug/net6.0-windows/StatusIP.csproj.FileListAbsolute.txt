@@ -16,3 +16,4 @@ C:\Users\FatuKING\Documents\ISTEA\Programacion 1\StatusIP\StatusIP\obj\Debug\net
 C:\Users\FatuKING\Documents\ISTEA\Programacion 1\StatusIP\StatusIP\obj\Debug\net6.0-windows\ref\StatusIP.dll
 C:\Users\FatuKING\Documents\ISTEA\Programacion 1\StatusIP\StatusIP\bin\Debug\net6.0-windows\config.csv
 C:\Users\FatuKING\Documents\ISTEA\Programacion 1\StatusIP\StatusIP\obj\Debug\net6.0-windows\StatusIP.Form2.resources
+C:\Users\FatuKING\Documents\ISTEA\Programacion 1\StatusIP\StatusIP\obj\Debug\net6.0-windows\StatusIP.Form3.resources

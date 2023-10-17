@@ -21,7 +21,7 @@ namespace StatusIP
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string[] ArchivoDatos = File.ReadAllLines("");
+            string[] ArchivoDatos = File.ReadAllLines("config.csv");
             ArchivoDatos = ArchivoDatos.Skip(1).ToArray();
 
             TextBox[] textBoxes = { textBox1, textBox2, textBox3 };
@@ -35,7 +35,7 @@ namespace StatusIP
                 if (textBoxIndex < textBoxes.Length)
                 {
                     textBoxes[textBoxIndex].Text = fila.IP;
-                    textBoxIndex++; 
+                    textBoxIndex++;
                 }
             }
         }
