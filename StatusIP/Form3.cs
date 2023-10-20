@@ -26,7 +26,8 @@ namespace StatusIP
                 this.Close();
                 Form2 form2 = new Form2();
                 form2.ShowDialog();
-            } else
+            }
+            else
             {
                 MessageBox.Show("Contraseña incorrecta.");
             }

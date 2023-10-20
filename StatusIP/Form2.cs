@@ -47,7 +47,6 @@ namespace StatusIP
 
             string[] lineas = File.ReadAllLines("config.csv");
 
-            // Actualiza los valores en las líneas correspondientes
             for (int i = 1; i < lineas.Length; i++)
             {
                 string[] partes = lineas[i].Split(',');

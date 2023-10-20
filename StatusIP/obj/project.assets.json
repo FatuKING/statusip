@@ -8,23 +8,23 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\FatuKING\\.nuget\\packages\\": {},
+    "C:\\Users\\fcozzani\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FatuKING\\Documents\\ISTEA\\Programacion 1\\StatusIP\\StatusIP\\StatusIP.csproj",
+      "projectUniqueName": "C:\\Users\\fcozzani\\Desktop\\Nueva carpeta (3)\\statusip\\StatusIP\\StatusIP.csproj",
       "projectName": "StatusIP",
-      "projectPath": "C:\\Users\\FatuKING\\Documents\\ISTEA\\Programacion 1\\StatusIP\\StatusIP\\StatusIP.csproj",
-      "packagesPath": "C:\\Users\\FatuKING\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FatuKING\\Documents\\ISTEA\\Programacion 1\\StatusIP\\StatusIP\\obj\\",
+      "projectPath": "C:\\Users\\fcozzani\\Desktop\\Nueva carpeta (3)\\statusip\\StatusIP\\StatusIP.csproj",
+      "packagesPath": "C:\\Users\\fcozzani\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fcozzani\\Desktop\\Nueva carpeta (3)\\statusip\\StatusIP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\FatuKING\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fcozzani\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

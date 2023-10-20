@@ -82,8 +82,11 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(textBox1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             Name = "Form3";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Cafe Martinez ";
             ResumeLayout(false);
             PerformLayout();
