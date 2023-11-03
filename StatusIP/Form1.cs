@@ -19,6 +19,7 @@ namespace StatusIP
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             string[] ArchivoDatos = File.ReadAllLines("config.csv");
             ArchivoDatos = ArchivoDatos.Skip(1).ToArray();
             dataGridView1.Rows.Clear();
@@ -40,6 +41,7 @@ namespace StatusIP
                 { conexion = "Sin Conexión"; }
 
                 dataGridView1.Rows.Add(fila.Nombre, fila.IP, conexion);
+
             }
         }
 

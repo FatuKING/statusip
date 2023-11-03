@@ -36,3 +36,4 @@ C:\Users\fcozzani\Desktop\Nueva carpeta (3)\statusip\StatusIP\obj\Debug\net6.0-w
 C:\Users\fcozzani\Desktop\Nueva carpeta (3)\statusip\StatusIP\obj\Debug\net6.0-windows\StatusIP.pdb
 C:\Users\fcozzani\Desktop\Nueva carpeta (3)\statusip\StatusIP\obj\Debug\net6.0-windows\StatusIP.genruntimeconfig.cache
 C:\Users\fcozzani\Desktop\Nueva carpeta (3)\statusip\StatusIP\obj\Debug\net6.0-windows\ref\StatusIP.dll
+C:\Users\fcozzani\Desktop\Nueva carpeta (3)\statusip\StatusIP\bin\Debug\net6.0-windows\readme.txt

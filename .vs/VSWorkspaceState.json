@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\StatusIP"
   ],
-  "SelectedNode": "\\StatusIP.sln",
+  "SelectedNode": "\\StatusIP\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

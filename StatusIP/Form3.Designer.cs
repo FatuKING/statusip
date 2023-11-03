@@ -38,6 +38,8 @@
             // textBox1
             // 
             textBox1.AccessibleDescription = "";
+            textBox1.BackColor = SystemColors.ControlLightLight;
+            textBox1.BorderStyle = BorderStyle.FixedSingle;
             textBox1.Location = new Point(46, 27);
             textBox1.Name = "textBox1";
             textBox1.PasswordChar = '*';
@@ -77,6 +79,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.InactiveCaption;
             ClientSize = new Size(222, 90);
             Controls.Add(label1);
             Controls.Add(button2);

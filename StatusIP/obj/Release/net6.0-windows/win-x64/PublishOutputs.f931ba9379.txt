@@ -1,0 +1,4 @@
+C:\Users\fcozzani\Desktop\Nueva carpeta (3)\statusip\StatusIP\bin\Release\net6.0-windows\win-x64\app.publish\StatusIP.pdb
+C:\Users\fcozzani\Desktop\Nueva carpeta (3)\statusip\StatusIP\bin\Release\net6.0-windows\win-x64\app.publish\config.csv
+C:\Users\fcozzani\Desktop\Nueva carpeta (3)\statusip\StatusIP\bin\Release\net6.0-windows\win-x64\app.publish\readme.txt
+C:\Users\fcozzani\Desktop\Nueva carpeta (3)\statusip\StatusIP\bin\Release\net6.0-windows\win-x64\app.publish\StatusIP.exe

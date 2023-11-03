@@ -1,0 +1,7 @@
+C:\Users\fcozzani\Desktop\Nueva carpeta (3)\statusip\StatusIP\bin\Release\net6.0-windows\publish\config.csv
+C:\Users\fcozzani\Desktop\Nueva carpeta (3)\statusip\StatusIP\bin\Release\net6.0-windows\publish\readme.txt
+C:\Users\fcozzani\Desktop\Nueva carpeta (3)\statusip\StatusIP\bin\Release\net6.0-windows\publish\StatusIP.exe
+C:\Users\fcozzani\Desktop\Nueva carpeta (3)\statusip\StatusIP\bin\Release\net6.0-windows\publish\StatusIP.dll
+C:\Users\fcozzani\Desktop\Nueva carpeta (3)\statusip\StatusIP\bin\Release\net6.0-windows\publish\StatusIP.deps.json
+C:\Users\fcozzani\Desktop\Nueva carpeta (3)\statusip\StatusIP\bin\Release\net6.0-windows\publish\StatusIP.runtimeconfig.json
+C:\Users\fcozzani\Desktop\Nueva carpeta (3)\statusip\StatusIP\bin\Release\net6.0-windows\publish\StatusIP.pdb

@@ -37,16 +37,17 @@
             label5 = new Label();
             label6 = new Label();
             label7 = new Label();
-            textBox1 = new TextBox();
             textBox2 = new TextBox();
             textBox3 = new TextBox();
             textBox4 = new TextBox();
             textBox5 = new TextBox();
+            textBox1 = new TextBox();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
+            label1.FlatStyle = FlatStyle.System;
             label1.Location = new Point(12, 20);
             label1.Name = "label1";
             label1.Size = new Size(51, 15);
@@ -56,7 +57,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(141, 20);
+            label2.Location = new Point(144, 20);
             label2.Name = "label2";
             label2.Size = new Size(68, 15);
             label2.TabIndex = 1;
@@ -64,11 +65,11 @@
             // 
             // button1
             // 
-            button1.Location = new Point(188, 172);
+            button1.Location = new Point(188, 171);
             button1.Name = "button1";
             button1.Size = new Size(109, 30);
             button1.TabIndex = 2;
-            button1.Text = "guardar y salir";
+            button1.Text = "Guardar y salir";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
@@ -117,15 +118,10 @@
             label7.TabIndex = 7;
             label7.Text = "PC Mozos";
             // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(144, 46);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(153, 23);
-            textBox1.TabIndex = 8;
-            // 
             // textBox2
             // 
+            textBox2.BackColor = Color.White;
+            textBox2.BorderStyle = BorderStyle.FixedSingle;
             textBox2.Location = new Point(144, 70);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(153, 23);
@@ -133,6 +129,8 @@
             // 
             // textBox3
             // 
+            textBox3.BackColor = Color.White;
+            textBox3.BorderStyle = BorderStyle.FixedSingle;
             textBox3.Location = new Point(144, 94);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(153, 23);
@@ -140,6 +138,8 @@
             // 
             // textBox4
             // 
+            textBox4.BackColor = Color.White;
+            textBox4.BorderStyle = BorderStyle.FixedSingle;
             textBox4.Location = new Point(144, 118);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(153, 23);
@@ -147,17 +147,29 @@
             // 
             // textBox5
             // 
+            textBox5.BackColor = Color.White;
+            textBox5.BorderStyle = BorderStyle.FixedSingle;
             textBox5.Location = new Point(144, 142);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(153, 23);
             textBox5.TabIndex = 12;
             // 
+            // textBox1
+            // 
+            textBox1.BackColor = Color.White;
+            textBox1.BorderStyle = BorderStyle.FixedSingle;
+            textBox1.Location = new Point(144, 46);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(153, 23);
+            textBox1.TabIndex = 8;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.InactiveCaption;
             BackgroundImageLayout = ImageLayout.None;
-            ClientSize = new Size(315, 211);
+            ClientSize = new Size(315, 205);
             Controls.Add(textBox5);
             Controls.Add(textBox4);
             Controls.Add(textBox3);

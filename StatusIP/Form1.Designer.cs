@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             button1 = new Button();
             dataGridView1 = new DataGridView();
@@ -40,9 +41,9 @@
             // 
             // button1
             // 
-            button1.Location = new Point(165, 170);
+            button1.Location = new Point(165, 169);
             button1.Name = "button1";
-            button1.Size = new Size(150, 35);
+            button1.Size = new Size(150, 36);
             button1.TabIndex = 0;
             button1.Text = "Iniciar";
             button1.UseVisualStyleBackColor = true;
@@ -52,13 +53,21 @@
             // 
             dataGridView1.AllowUserToAddRows = false;
             dataGridView1.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = SystemColors.Control;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Nombre, IP, Conectividad });
-            dataGridView1.Location = new Point(10, 13);
+            dataGridView1.Location = new Point(12, 12);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(305, 151);
+            dataGridView1.Size = new Size(303, 151);
             dataGridView1.TabIndex = 1;
             // 
             // Nombre
@@ -66,6 +75,7 @@
             Nombre.HeaderText = "Nombre";
             Nombre.Name = "Nombre";
             Nombre.ReadOnly = true;
+            Nombre.Resizable = DataGridViewTriState.False;
             Nombre.Width = 70;
             // 
             // IP
@@ -73,12 +83,14 @@
             IP.HeaderText = "Dirección IP";
             IP.Name = "IP";
             IP.ReadOnly = true;
+            IP.Resizable = DataGridViewTriState.False;
             // 
             // Conectividad
             // 
             Conectividad.HeaderText = "Conectividad";
             Conectividad.Name = "Conectividad";
             Conectividad.ReadOnly = true;
+            Conectividad.Resizable = DataGridViewTriState.False;
             Conectividad.Width = 90;
             // 
             // button2
@@ -95,7 +107,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(327, 213);
+            BackColor = SystemColors.InactiveCaption;
+            ClientSize = new Size(327, 216);
             Controls.Add(button2);
             Controls.Add(dataGridView1);
             Controls.Add(button1);
