@@ -9,7 +9,12 @@
     <Company>$(CafeMartinez)</Company>
     <Product>$(StatusIP)</Product>
     <PackageIcon>icoMartinez.png</PackageIcon>
+    <ApplicationIcon>icoMartinez.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="icoMartinez.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\..\..\..\Downloads\icoMartinez.png">
