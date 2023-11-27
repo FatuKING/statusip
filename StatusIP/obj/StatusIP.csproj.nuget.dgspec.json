@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fcozzani\\Desktop\\Nueva carpeta (3)\\statusip\\StatusIP\\StatusIP.csproj": {}
+    "C:\\Users\\fcozzani\\Desktop\\gdhtdgh\\statusip\\StatusIP\\StatusIP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fcozzani\\Desktop\\Nueva carpeta (3)\\statusip\\StatusIP\\StatusIP.csproj": {
+    "C:\\Users\\fcozzani\\Desktop\\gdhtdgh\\statusip\\StatusIP\\StatusIP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fcozzani\\Desktop\\Nueva carpeta (3)\\statusip\\StatusIP\\StatusIP.csproj",
+        "projectUniqueName": "C:\\Users\\fcozzani\\Desktop\\gdhtdgh\\statusip\\StatusIP\\StatusIP.csproj",
         "projectName": "StatusIP",
-        "projectPath": "C:\\Users\\fcozzani\\Desktop\\Nueva carpeta (3)\\statusip\\StatusIP\\StatusIP.csproj",
+        "projectPath": "C:\\Users\\fcozzani\\Desktop\\gdhtdgh\\statusip\\StatusIP\\StatusIP.csproj",
         "packagesPath": "C:\\Users\\fcozzani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fcozzani\\Desktop\\Nueva carpeta (3)\\statusip\\StatusIP\\obj\\",
+        "outputPath": "C:\\Users\\fcozzani\\Desktop\\gdhtdgh\\statusip\\StatusIP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
